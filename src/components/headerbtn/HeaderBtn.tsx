@@ -5,7 +5,7 @@ import { memo } from 'react';
 const HeaderBtn = () => {
     const router = useRouter()
   return (
-    <h2 className='text-[20px] font-medium cursor-pointer' onClick={() => router.back()}>Dummy</h2>
+    <h2 className='text-[20px] font-medium cursor-pointer' onClick={() => router.prefetch("/")}>Dummy</h2>
   );
 };
 
